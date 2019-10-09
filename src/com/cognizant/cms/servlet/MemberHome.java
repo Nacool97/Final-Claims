@@ -46,7 +46,10 @@ public class MemberHome extends HttpServlet {
 			 
 		 }
 		 request.setAttribute("x", m);
+<<<<<<< HEAD
 		 request.setAttribute("x1",id);
+=======
+>>>>>>> 08f1a67f31e821d9efe50d0c56a863e5169dee7a
 			RequestDispatcher rd = request.getRequestDispatcher("/memberHome.jsp");
 			rd.forward(request, response);
 

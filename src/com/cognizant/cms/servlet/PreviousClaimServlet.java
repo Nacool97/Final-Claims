@@ -37,7 +37,10 @@ public class PreviousClaimServlet extends HttpServlet {
 		ClaimDaoSql claimdaosql = new ClaimDaoSql();
 		ArrayList<Claim> claimlist = claimdaosql.getPreviousClaim(id);
 		request.setAttribute("prevclaims", claimlist);
+<<<<<<< HEAD
 		request.setAttribute("x1", id);
+=======
+>>>>>>> 08f1a67f31e821d9efe50d0c56a863e5169dee7a
 		RequestDispatcher rd = request.getRequestDispatcher("/previous_claims.jsp");
 		rd.forward(request, response);
 	}

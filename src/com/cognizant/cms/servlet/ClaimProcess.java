@@ -32,7 +32,10 @@ public class ClaimProcess extends HttpServlet {
 		if(session==null)
 		{
 			RequestDispatcher rd=request.getRequestDispatcher("homepage.jsp");
+<<<<<<< HEAD
 			rd.forward(request, response);
+=======
+>>>>>>> 08f1a67f31e821d9efe50d0c56a863e5169dee7a
 		}
 		else
 		{

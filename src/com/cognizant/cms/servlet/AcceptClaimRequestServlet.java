@@ -55,7 +55,10 @@ public class AcceptClaimRequestServlet extends HttpServlet {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+<<<<<<< HEAD
 		request.setAttribute("x",id);
+=======
+>>>>>>> 08f1a67f31e821d9efe50d0c56a863e5169dee7a
 		RequestDispatcher rd=request.getRequestDispatcher("/claim-status-notification.jsp");
 		rd.forward(request, response);
 		}

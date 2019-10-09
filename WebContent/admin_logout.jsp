@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
+<<<<<<< HEAD
 <script language="JavaScript" type="text/javascript">
 window.history.forward(1);
 </script>
+=======
+>>>>>>> 08f1a67f31e821d9efe50d0c56a863e5169dee7a
 	<meta charset="utf-8">
 	<title>Insurance Management</title>
 	<!-- Mobile Specific Metas -->
@@ -21,6 +24,7 @@ window.history.forward(1);
 	
 				<form class="form-detail" method="post" id="myform">
 				<div class="form-left">
+<<<<<<< HEAD
 				<div class="form-row">
 									<div class="form row"><br><br></div>
 					<div class="form row"><br><br></div>
@@ -44,6 +48,22 @@ window.history.forward(1);
 				</div>
 				
 					
+=======
+				<div class="form-group">
+				<h3>Do you want to Logout?</h3>
+				</div>
+					</div>
+					<div class="form-group">
+					<div class="form-row form-row-1">
+						<a href="logoutpage.jsp"><input type="button" name="register" class="register1" value="Yes"/></a>
+					</div>
+					<div class="form-row form-row-2">	
+						<a href="adminHome.jsp"><input type="button" name="register" class="register2" value="No"/></a>
+					</div>
+					</div>
+				
+					</form>
+>>>>>>> 08f1a67f31e821d9efe50d0c56a863e5169dee7a
 					</div>
 					
 		</div>

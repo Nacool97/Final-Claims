@@ -19,12 +19,21 @@
 </head>
 <div class="w3-top">
   <div class="w3-bar w3-white w3-card" id="myNavbar">
+<<<<<<< HEAD
     <a href="adminHome.jsp" class="w3-bar-item w3-button w3-wide">CLAIMS MANAGEMENT SYSTEM</a>
         <div class="w3-right w3-hide-small">
       <a href="adminHome.jsp" class="w3-bar-item w3-button">Home</a>
      
 
       <a href="admin_logout.jsp" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>Logout</a>
+=======
+    <a href="#home" class="w3-bar-item w3-button w3-wide">CLAIMS MANAGEMENT SYSTEM</a>
+        <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button">Home</a>
+     
+
+      <a href="#contact" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i>Logout</a>
+>>>>>>> 08f1a67f31e821d9efe50d0c56a863e5169dee7a
     </div>
 <body class="form-v10">
 	

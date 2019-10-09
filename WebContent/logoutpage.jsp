@@ -3,7 +3,13 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
+<<<<<<< HEAD
 
+=======
+<script language="JavaScript" type="text/javascript">
+window.history.forward(1);
+</script>
+>>>>>>> 08f1a67f31e821d9efe50d0c56a863e5169dee7a
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <link rel="stylesheet" href="css/homep.css">
 <title>homepage</title>
@@ -12,7 +18,11 @@
 	<!-- Navbar (sit on top) -->
 	<div class="w3-top">
 		<div class="w3-bar w3-white w3-card" id="myNavbar">
+<<<<<<< HEAD
 			<a href="homepage.jsp" class="w3-bar-item w3-button w3-wide">CLAIMS
+=======
+			<a href="#home" class="w3-bar-item w3-button w3-wide">CLAIMS
+>>>>>>> 08f1a67f31e821d9efe50d0c56a863e5169dee7a
 				MANAGEMENT SYSTEM</a>
 			<!-- Right-sided navbar links -->
 			<div class="w3-right w3-hide-small">
@@ -22,7 +32,11 @@
 					<button class="dropbtn">LOGIN</button>
 					<div class="dropdown-content">
 						<a href="adminlogin.jsp">ADMIN LOGIN</a> <a href="memberlogin.jsp">MEMBER
+<<<<<<< HEAD
 							LOGIN</a>
+=======
+							LOGIN</a> <a href="agentlogin.jsp">AGENT LOGIN</a>
+>>>>>>> 08f1a67f31e821d9efe50d0c56a863e5169dee7a
 					</div>
 				</div>
 

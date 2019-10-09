@@ -40,7 +40,10 @@ public class TrackClaimServlet extends HttpServlet {
 			ArrayList<Claim> claimList = claimDaoSql.trackClaims(id);
 			
 			request.setAttribute("tclaims",claimList);
+<<<<<<< HEAD
 			request.setAttribute("x1", id);
+=======
+>>>>>>> 08f1a67f31e821d9efe50d0c56a863e5169dee7a
 			RequestDispatcher rd = request.getRequestDispatcher("/track_claim.jsp");
 			rd.forward(request, response);
 		

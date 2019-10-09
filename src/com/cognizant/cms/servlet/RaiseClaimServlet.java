@@ -72,8 +72,12 @@ public class RaiseClaimServlet extends HttpServlet {
 				
 				
 			}
+<<<<<<< HEAD
 		request.setAttribute("x", m);	
 		request.setAttribute("x1", id);
+=======
+		request.setAttribute("x", m);				
+>>>>>>> 08f1a67f31e821d9efe50d0c56a863e5169dee7a
 			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
